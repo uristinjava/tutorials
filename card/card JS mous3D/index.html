@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <title>3D card</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="box">
+            <div class="imgBx">
+                <img src="/img/bank.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <h2>Наименование первое</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo aliquid ipsa voluptate.
+                    Veritatis minima suscipit maiores dolor, nemo quia!</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/img/children.jpeg" alt="">
+            </div>
+            <div class="contentBx">
+                <h2>Наименование первое</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo aliquid ipsa voluptate.
+                    Veritatis minima suscipit maiores dolor, nemo quia!</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/img/bank1.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <h2>Наименование первое</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo aliquid ipsa voluptate.
+                    Veritatis minima suscipit maiores dolor, nemo quia!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+</body>
+
+</html>
