@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Hendler Change CSS</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <div class="">
+            <h2 id="rangeValue">0</h2>
+            <div id="fillRangeTopLeft"></div>
+            <div id="fillRangeTopRight"></div>
+            <div id="fillRangeBottomLeft"></div>
+            <div id="fillRangeBottomRight"></div>
+            <input type="range" class="range" value="0" min="0" max="100" onmousemove="rangeSlider(value)"
+                onchange="rangeSlider(value)">
+        </div>
+
+    </section>
+</body>
+
+</html>
